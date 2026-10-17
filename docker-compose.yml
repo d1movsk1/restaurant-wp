@@ -25,3 +25,4 @@ services:
     volumes:
       - ./.stack-data/wp-content2:/var/www/html/wp-content
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini:ro
+      - ./uploads:/var/www/html/wp-content/uploads
